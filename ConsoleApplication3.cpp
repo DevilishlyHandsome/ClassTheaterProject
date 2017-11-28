@@ -196,8 +196,8 @@ void buySeat()
 
 void refundSeat()
 {
-	int x;
-	int y;
+	int x = 0;
+	int y = 0;
 	while (x < 1 || x > 30)
 	{
 		cout << "Please Enter Row Number from 1-30 \n";
